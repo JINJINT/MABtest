@@ -1,17 +1,12 @@
-
-import time
 import math
 from numpy import sqrt, log, exp, mean, cumsum, zeros, argsort, argmin, argmax, array
 import numpy
-import ipdb
-
-
 
 
 def posterior(arm, reward):
 	# compute the posterior based on known prior format
-	arm['a'] + = reward
-	arm['b'] + = (1-reward)
+	arm['a'] += reward
+	arm['b'] += (1-reward)
 
 	return arm['a'], arm['b']
 
