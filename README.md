@@ -1,6 +1,6 @@
 # MABtest
 
-An open-source package for online experiments using Multi-armed bandits. For questions, contact the author jinjin(at)Andrew(dot)cmu(dot)edu.
+An open-source package for online experiments using Multi-armed bandits. For questions, contact the author jinjin(at)andrew(dot)cmu(dot)edu.
 
 ## List of algorithms
 
